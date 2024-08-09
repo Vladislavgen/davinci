@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Everywhere</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="pages/frontend.html">Frontend</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/backend.html">Backend</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/qa.html">QA</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container content">
+        <h1>Javascript Everywhere</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <p>
+                    El mundo actual de los sitios web difícilmente se puede imaginar sin el lenguaje JavaScript. JavaScript es lo que hace que las páginas web cobren vida, las mismas que navegamos a diario en nuestro navegador web. JavaScript fue creado en 1995 por Brendan Eich en Netscape como un lenguaje de secuencias de comandos para el navegador Netscape Navigator 2. Inicialmente, el lenguaje se llamaba LiveScript, pero debido a la popularidad en ese momento del lenguaje Java, LiveScript fue renombrado como JavaScript. Sin embargo, este punto aún puede causar cierta confusión: algunos desarrolladores principiantes creen que Java y JavaScript son casi el mismo lenguaje. No, son dos lenguajes completamente diferentes y solo comparten el nombre.
+                </p>
+                <p>
+                    Inicialmente, JavaScript tenía capacidades bastante limitadas. Su objetivo era simplemente agregar un poco de comportamiento a las páginas web. Por ejemplo, manejar clics de botones en una página web o realizar otras acciones relacionadas principalmente con los elementos de control.
+                </p>
+                <p>
+                    Sin embargo, el desarrollo del entorno web, la aparición de HTML5 y la tecnología Node.js han abierto horizontes mucho más amplios para JavaScript. Ahora, JavaScript se sigue utilizando principalmente para crear aplicaciones web del lado del cliente, pero ahora ofrece muchas más posibilidades.
+                </p>
+                <p>
+                    JavaScript es un lenguaje interpretado. Esto significa que el código en JavaScript se ejecuta utilizando un intérprete. El intérprete recibe instrucciones en el lenguaje JavaScript, que están definidas en la página web, y las ejecuta (o interpreta).
+                </p>
+            </div>
+        </div>
+        <form action="./pages/gracias.html" method="post">
+            <div class="form-group">
+                <label for="frontend">Choose your way in Frontend</label>
+                <select class="form-control" id="frontend">
+                    <option>ReactJS</option>
+                    <option>VueJS</option>
+                    <option>jQuery</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="backend">Choose your way in Backend</label>
+                <select class="form-control" id="backend">
+                    <option>NestJS</option>
+                    <option>Express.JS</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="qa">Choose your way in QA</label>
+                <select class="form-control" id="qa">
+                    <option>Playwright</option>
+                    <option>Cypress</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3"></ul>
+        <p class="text-center text-body-secondary">© 2024 Javascript everywhere</p>
+      </footer>
+</body>
+</html>
